@@ -47,18 +47,6 @@ INFO[0015] Creating virtual wire: PC2:eth1 <--> router2:eth3
 INFO[0016] Adding containerlab host entries to /etc/hosts file
 INFO[0016] 🎉 New containerlab version 0.31.1 is available! Release notes: https://containerlab.dev/rn/0.31/#0311
 Run 'containerlab version upgrade' to upgrade or go check other installation options at https://containerlab.dev/install/
-+---+---------------------+--------------+---------------------------------+-------+---------+----------------+----------------------+
-| # |        Name         | Container ID |              Image              | Kind  |  State  |  IPv4 Address  |     IPv6 Address     |
-+---+---------------------+--------------+---------------------------------+-------+---------+----------------+----------------------+
-| 1 | clab-frrlab-PC1     | 5de0b11fe4c9 | praqma/network-multitool:latest | linux | running | 172.20.20.7/24 | 2001:172:20:20::7/64 |
-| 2 | clab-frrlab-PC2     | b11c2bb8e697 | praqma/network-multitool:latest | linux | running | 172.20.20.2/24 | 2001:172:20:20::2/64 |
-| 3 | clab-frrlab-PC3     | c6b903a2bba7 | praqma/network-multitool:latest | linux | running | 172.20.20.3/24 | 2001:172:20:20::3/64 |
-| 4 | clab-frrlab-router1 | 9659e33f5396 | frrouting/frr:v7.5.1            | linux | running | 172.20.20.4/24 | 2001:172:20:20::4/64 |
-| 5 | clab-frrlab-router2 | e2887df4501a | frrouting/frr:v7.5.1            | linux | running | 172.20.20.5/24 | 2001:172:20:20::5/64 |
-| 6 | clab-frrlab-router3 | f10612d0d262 | frrouting/frr:v7.5.1            | linux | running | 172.20.20.6/24 | 2001:172:20:20::6/64 |
-+---+---------------------+--------------+---------------------------------+-------+---------+----------------+----------------------+
-bash-5.1# 
-
 
 
 
