@@ -3,16 +3,16 @@ all:
     linux:
       hosts:
         clab-frrlab-bgp-PC1:
-          ansible_host: 172.20.20.2
-        clab-frrlab-bgp-PC2:
-          ansible_host: 172.20.20.3
-        clab-frrlab-bgp-PC3:
           ansible_host: 172.20.20.6
-        clab-frrlab-bgp-router1:
+        clab-frrlab-bgp-PC2:
           ansible_host: 172.20.20.5
-        clab-frrlab-bgp-router2:
+        clab-frrlab-bgp-PC3:
           ansible_host: 172.20.20.4
+        clab-frrlab-bgp-router1:
+          ansible_host: 172.20.20.3
+        clab-frrlab-bgp-router2:
+          ansible_host: 172.20.20.8
         clab-frrlab-bgp-router3:
           ansible_host: 172.20.20.7
         clab-frrlab-bgp-router4:
-          ansible_host: 172.20.20.8
+          ansible_host: 172.20.20.2
